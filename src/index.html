@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>TheRealm</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="title-bar-container">
+      <div class="title-bar-logo">The Realm</div>
+      <ul class="title-bar-characters">
+        <li>
+          <button class="minimize-button" id="minimize">-</button>
+        </li>
+        <li>
+          <button class="maximize-button" id="maximize">&square;</button>
+        </li>
+        <li>
+          <button class="close-button" id="close"><div class="x-symbol">+</div></button>
+        </li>
+      </ul>
+    </header>
+    <div class="container">
+      <h1 class="title">The Realm</h1>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="render.js"></script>
+  </body>
+</html>

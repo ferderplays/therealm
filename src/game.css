@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.title-bar-container {
+    background: rgb(220, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 5px solid rgb(205, 0, 0);
+}
+
+.title-bar-container li {
+    display: inline-block;
+}
+
+.title-bar-logo {
+    font-size: 45px;
+}
+
+.minimize-button {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    background: rgb(220, 0, 0);
+    border: none;
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s;
+    font-size: 35px;
+}
+
+.minimize-button:hover {
+    background: rgb(205, 0, 0);
+}
+
+.maximize-button {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    background: rgb(220, 0, 0);
+    border: none;
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s;
+    font-size: 35px;
+}
+
+.maximize-button:hover {
+    background: rgb(205, 0, 0);
+}
+
+.close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(220, 0, 0);
+    border: none;
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s;
+    font-size: 35px;
+}
+
+.close-button:hover {
+    background: red;
+}
+
+.x-symbol {
+    transform: rotate(-45deg);
+}
+
+.block {
+    position: absolute;
+    top: 300px;
+    height: 100px;
+    width: 100px;
+    background: lime;
+}
+
+.shadow-layer-1-a {
+    position: absolute;
+    top: 301px;
+    left: 1px;
+    background: rgb(0, 0, 0);
+    height: 105px;
+    width: 105px;
+}
+
+.shadow-layer-1-b {
+    position: absolute;
+    top: 302px;
+    left: 2px;
+    background: rgb(5, 5, 5);
+    height: 105px;
+    width: 105px;
+}
+
+.shadow-layer-1-c {
+    position: absolute;
+    top: 303px;
+    left: 3px;
+    background: rgb(10, 10, 10);
+    height: 105px;
+    width: 105px;
+}
+
+.shadow-layer-1-d {
+    position: absolute;
+    top: 304px;
+    left: 4px;
+    background: rgb(10, 10, 10);
+    height: 105px;
+    width: 105px;
+}

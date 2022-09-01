@@ -1,0 +1,23 @@
+{
+  "name": "therealm",
+  "version": "1.0.0",
+  "description": "therealm rebuild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferderplays/therealm.git"
+  },
+  "author": "ferderplays",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferderplays/therealm/issues"
+  },
+  "homepage": "https://github.com/ferderplays/therealm#readme",
+  "devDependencies": {
+    "electron": "^20.1.1"
+  }
+}
